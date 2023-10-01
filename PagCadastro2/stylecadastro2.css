@@ -1,0 +1,91 @@
+form{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 8%;
+    background-color: grey;
+    border-radius: 20px;
+}
+.texto{
+    text-align: center;
+    font-size: 22.532px;
+    padding-top: 6.6%;
+}
+.concluir{
+    padding-top: 0.45%;
+    font-size: 31.078px;
+    width: 500px;
+    padding-left: 13.5%;
+}
+.bolinhacheia{
+    display: flex;
+    margin-left: 47.8%;
+}
+.bolinhavazia{
+    display: flex;
+    padding-left: 0.8%;
+}
+.nome{
+    margin-left: 36.8% ;
+    padding-top: 3%;
+    height: 30px;
+    display: flex;
+}
+.email{
+    margin-left: 36.8% ;
+    height: 30px;
+    display: flex;
+    padding-top: 3%;
+    position: relative;
+}
+.nascimento{
+    margin-left: 36.8% ;
+    height: 30px;
+    display: flex;
+    padding-top: 3%;
+    margin-right: 10%;
+}
+.celular{
+    margin-left: 36.8% ;
+    height: 30px;
+    display: flex;
+    padding-top: 3%;  
+}
+.ofertas{
+    margin-left: 36.5% ;
+    height: 30px;
+    display: flex;
+    padding-top: 1%; 
+    width: 280px;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+.textoofertas{
+    padding-top: 2%;
+}
+.termos{
+    margin-left: 36.5% ;
+    height: 30px;
+    display: flex;
+    padding-top: 1.5%; 
+    width: 280px;
+}
+.textotermos{
+    padding-top: 2.3%;
+
+}
+#botao{
+    border-radius: 20px;
+    width: 200px; 
+    height: 40px;
+    background-color: #AFAFAF;
+    color: #242424;
+    cursor: pointer;
+}
+.botao{
+    padding-top: 1%;
+}
+.espaco{
+    padding-bottom: 20px;
+
+}

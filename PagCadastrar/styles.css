@@ -1,0 +1,243 @@
+/* HEADER TEM 15% DE ALTURA */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.topo { 
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:11;
+    background-color:#eeecec;
+    width:100%;
+    height:66px;
+    }
+    
+    .top{
+    position:absolute;
+    top:10px;
+    left:0;
+    z-index:11;
+    width:100%;
+    height:66px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:40px;
+        
+    }
+        
+        
+    .linhapreta{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:9;
+    background-color:#000000;
+    width:100%;
+    height:15%;	
+    }
+    
+    
+    #menu {
+        position: absolute;
+        left:50px;
+        top:10px;
+        }
+    
+     #local {
+        position: absolute;
+        right:250px;
+        top:10px;
+        }
+    
+        #bolsa {
+        position: absolute;
+        right:200px;
+        top:10px;
+        }
+        
+        #coracao {
+        position: absolute;
+        right:150px;
+        top:10px;
+        }
+        
+        #perfil{
+        position: absolute;
+        right:100px;
+        top:10px;
+        }
+        #casa {
+        position: absolute;
+        right:50px;
+        top:10px;
+        }
+
+/* Carrossel Principal */
+section.sliderprincipal{
+    margin:0;
+    width:100%;
+    height: 90%;
+    padding: 0;
+    overflow: hidden;
+  background-color: aqua;
+
+}
+.sliderp-content{
+    width:400%;
+    height: auto;
+    display:flex;
+}
+
+.sliderp-content input{
+display: none;
+}
+
+.sliderp-box{
+    width:25%;
+    height: auto;
+    position: relative;
+    text-align:center;
+    transition: 1s;
+}
+.sliderp-box img{
+    width:100%;
+    height: 950px;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width:100%;
+    margin-top: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #fff;
+    padding:10px;
+    cursor:pointer ;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+background-color: #fff;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: #fff;
+    }
+    
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #fff;
+    }
+
+#radio1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+#radio2:checked ~ .primeiro{
+        margin-left: -25%;
+    }
+
+#radio3:checked ~ .primeiro{
+        margin-left: -50%;
+    }
+/* Fim carrossel principal */
+
+
+
+
+
+
+/* Tipos de roupa */
+
+section.tiposderoupa{
+    background-color: #c3c3c3;
+}
+.slider-container {
+
+    margin-right:2%;
+    margin-left:10%;
+    width: 80%;
+    height:80%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    margin-top: 12%;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease;
+    
+}
+
+.slide {
+    flex: 0 0 20%; /* Mostra 4 slides por vez */
+    margin-right: 0.005%;
+    text-align: center;
+}
+
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.slide h2 {
+    margin-top: 10px;
+}
+
+.slide p {
+    margin-top: 5px;
+}
+
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.prev {
+    left: 0; 
+    margin-right: 100%;
+    transform: translateY(-50%);
+}
+
+.next {
+    right: 0;
+    margin-left: 100%;
+    transform: translateY(-50%);
+}
+
+.tiposderoupa a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.tituloprinc a{
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}

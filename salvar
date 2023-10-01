@@ -1,0 +1,151 @@
+
+    <!-- Tipos de roupa -->
+<section class="tiposderoupa">
+    <BR>
+    <h1 class="novidades"> ENCONTRE O QUE VOCÊ PROCURA... </h1>
+    <div class="carrossel-container">
+        <div class="carrossel">
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+            <div class="tiposderoupa-slide">
+                <a href="blusas.html"><img class="imagem" src="imagenstcc/blusa.png" alt="Imagem 1"></a>
+                <h3 class="tiposderoupa"><a href="blusas.html">BLUSA</a></h3>
+            </div>
+           
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+    </div>
+   
+</section>
+
+<section class="novidades">
+    <h1 class="novidades"> NOVIDADES </h1>
+    <div class="novidades-container">
+        <div class="novidades-slider">
+            <div class="novidades-item">
+                <a href="blusas.html"><img src="imagenstcc/nov (1).png" alt="Imagem 1"></a>
+<br>
+             <left>   <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div></left>
+
+                <h2><a href="#">Conjunto Básico</a></h2>
+                <h3>R$250,00</h3>
+               
+            </div>
+            
+            <div class="novidades-item">
+                <a href="blusas.html"><img src="imagenstcc/nov (1).png" alt="Imagem 1"></a>
+<br>
+             <left>   <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div></left>
+
+                <h2><a href="#">Conjunto Básico</a></h2>
+                <h3>R$250,00</h3>
+               
+            </div>
+            <div class="novidades-item">
+                <a href="blusas.html"><img src="imagenstcc/nov (1).png" alt="Imagem 1"></a>
+<br>
+             <left>   <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div></left>
+
+                <h2><a href="#">Conjunto Básico</a></h2>
+                <h3>R$250,00</h3>
+               
+            </div>
+            <div class="novidades-item">
+                <a href="blusas.html"><img src="imagenstcc/nov (1).png" alt="Imagem 1"></a>
+<br>
+             <left>   <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div>
+                <div class="quadradinho">
+                    <img src="imagenstcc/coresanimação.svg">
+                </div></left>
+
+                <h2><a href="#">Conjunto Básico</a></h2>
+                <h3>R$250,00</h3>
+               
+            </div>
+        </div>
+    </div>
+</section>
+<section class="interacao"> 
+<section class="interacaoecomamidia">
+    <div class="videointeracao">
+        <video width="100%" controls autoplay>
+            <source src="imagenstcc/videorells.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="imagenstcc/sliderp1.png" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="imagenstcc/sliderp2.png" alt="Imagem 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="imagenstcc/sliderp3.png" alt="Imagem 1">
+            </div>
+        </div>
+        <h1 class="looks"> Use #LOOKDAATRINNE no instagram e apareça aqui.</h1>
+    </div>
+</section>
+</section>
+
+    <script src="script.js"></script>
+</div>
+</div>

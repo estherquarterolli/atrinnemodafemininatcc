@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylecadastro.css">
+
+    <title>Cadastro parte 1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+
+        <div class="topo">
+
+            <div class="top">
+
+            <a style="text-decoration: none; color: black;"
+             href="index.html"><center>Atrinne Moda Feminina</center></a>
+
+        </div>
+        
+          <img src="imagenstcc/menu.png" width="47" height="45" 
+          id="menu">
+        
+          <img src="imagenstcc/local.png" width="47" height="45" 
+          id="local">
+        
+          <img src="imagenstcc/bolsa.png" width="47" height="45" 
+          id="bolsa">
+        
+          <img src="imagenstcc/coracao.png" width="47" height="45" 
+          id="coracao">
+        
+          <img src="imagenstcc/perfil.png" width="47" height="45" 
+          id="perfil">
+        
+          <!-- <img src="casa.png" width="47" height="45" 
+          id="casa"> -->
+        
+        </div>
+        
+         <div class="linhapreta">
+
+         </div>
+
+        </div>    
+    
+</header>
+
+            <!-- INÍCIO DO FORMULÁRIO -->
+
+<form>
+
+    <!-- parte 1 de 2 -->
+    <div class="texto">
+    parte 1 de 2
+
+    <!-- vamos criar seu acesso? -->
+    <div class="acesso">
+        Vamos criar seu Acesso?
+    </div>
+
+    <!-- bolinha cheia das etapas -->
+<div class="bolinhacheia">
+        <img src="imagenstcc/bolinhacadastrocheia.png">
+
+    <!-- bolinha vazia das etapas -->
+        <div class="bolinhavazia">
+            <img src="imagenstcc/bolinhacadastrovazia.png">
+        </div>
+
+</div>
+    
+        </div>  
+
+        <!-- CPF -->
+<div class="cpf">
+    <input type="number" name="cfp" id="cpf" placeholder="Digite o seu CPF">
+</div>
+
+        <!-- SENHA -->
+<div class="senha">
+    <input type="password" name="senha" id="senha" placeholder="Crie uma nova senha">
+   
+    <!-- OLHO DA SENHA -->
+   <div class="olho">
+    <i class="bi bi-eye" id="olhosenha" onclick="mostrarSenha()"></i>
+</div>
+
+<!-- JS DO OLHOOO -->
+<script src="olho.js"></script>
+</div>
+
+        <!-- CONFIRMAR SENHA -->
+<div class="confirmarsenha">
+    <input type="password" name="senhaconfirmar" id="senhaconfirmar" placeholder="Confirme sua nova senha">
+   
+    <!-- OLHO DE CONFIRMAR SENHA -->
+   <div class="olhoconfirmar">
+    <i class="bi bi-eye" id="olhoconfirmarsenha" onclick="mostrarSenha2()"></i>
+</div>
+
+<!-- JS DE CONFIRMAR SENHA OLHOOO -->
+<script src="olhoconfirmar.js"></script>
+</div>
+</div>
+<!-- PRECISA COLOCAR LINK NO BOTÃO -->
+        <!-- BOTÃO CONFIRMAR -->
+        <br>
+<div class="botao">
+
+    <a href="/PagCadastro2/parte2cadastro.html"><center><input type="submit" value="CONFIRMAR" id="botao"></a></center>
+</div>
+<div class="espaco">
+
+</div>
+</form>
+
+            <!-- FIM DO FORMULÁRIO -->
+</body>
+</html>

@@ -1,0 +1,507 @@
+:root{
+    --basebranca: white;
+    --basepreta: black;
+    --verde: #14220b;
+    --vermelho: #2c0c0c;
+    --cinzagelo: #eae5e1;
+    --bordo: #4f2707;
+    --cinza1: #c3c3c3;
+    --cinza2: #9b9b9b;
+    --cinza3: #716f6f;
+
+
+
+}
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* height:500vh; */
+}
+body{
+    margin: 0;
+    padding: 0;   
+}
+
+.container{
+    max-width: 1800px;
+    margin: auto;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width:100%;
+   position: fixed;
+    top:0;
+    left:0;
+    color:white;
+    z-index: 2;
+}
+
+
+header h1{
+    color:var(--basebranca);
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    padding-top: 1%;
+}
+
+header.rolagem{
+    background-color:var(--cinzagelo) ;
+    color:var(--basepreta);
+    padding: 0;
+    
+}
+
+header.rolagem h1{
+    color: var(--basepreta);
+    font-size: 50px;
+}
+header img.menu{
+    font-size: 30px;
+text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+.sliderprincipal{
+    position: relative;
+    z-index: 1; 
+    background-color: #000; 
+ 
+}
+/* Carrossel Principal */
+section.sliderprincipal{
+    margin:0;
+    width:100%;
+    /* height: 90%; */
+    padding: 0;
+    overflow: hidden;
+
+
+}
+.sliderp-content{
+    width:400%;
+    height: auto;
+    display:flex;
+}
+
+.sliderp-content input{
+display: none;
+}
+
+.sliderp-box{
+    width:25%;
+    height: auto;
+    position: relative;
+    text-align:center;
+    transition: 1s;
+}
+.sliderp-box img{
+    width:100%;
+    height: 950px;
+}
+
+.nav-manual, .nav-auto{
+    position: absolute;
+    width:100%;
+    margin-top: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid #fff;
+    padding:10px;
+    cursor:pointer ;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+.nav-manual .manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+background-color: #fff;
+}
+#radio2:checked ~ .nav-auto .auto-btn2{
+    background-color: #fff;
+    }
+    
+#radio3:checked ~ .nav-auto .auto-btn3{
+    background-color: #fff;
+    }
+
+#radio1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+
+#radio2:checked ~ .primeiro{
+        margin-left: -25%;
+    }
+
+#radio3:checked ~ .primeiro{
+        margin-left: -50%;
+    }
+/* Fim carrossel principal */
+
+
+
+
+
+
+/* Tipos de roupa */
+
+section.tiposderoupa{
+    background-color: #c3c3c3;
+    margin-top: 1px;
+    /*margin-top: 50vh;  espaço suficiente abaixo do header  */
+    position: relative; /* para que o z-index funcione */
+    z-index: 1; /* abaixo do header */
+}
+section.tiposderoupa {
+    background-color:var(--cinza2);
+    /*margin-top: 100vh;  Adicione um espaçamento equivalente à altura do viewport */
+}
+.carrossel-container {
+    width: 150%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 8%;
+   
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.tiposderoupa-slide {
+    flex: 0 0 25%;
+    margin-right: 0%;
+    text-align: center;
+}
+
+.tiposderoupa-slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tiposderoupa-slide h3 {
+    margin-top: 10px;
+    font-family: 'Qualquer um', cursivo;
+}
+
+/* Estilos dos botões de navegação */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.prev {
+    left: 0%;
+}
+
+.next {
+    right: 0%;
+}
+
+h3.tiposderoupa{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+}
+
+img.imagem {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* border: 1px solid #ffd700; */
+}
+
+
+
+img.imagem {
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.8); /* filtro de redução de brilho  */
+}
+
+img.imagem:hover {
+    transform: scale(1.05); /* Aumenta a imagem em hover */
+    filter: brightness(1);
+    
+}
+
+/* novidades */
+
+
+.novidades-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 13%;
+   padding-left: 5%;
+    padding: 20px;
+}
+
+h1.novidades{
+    text-align: center;
+    align-items: center;
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+}
+.novidades-slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.novidades-item {
+    flex: 0 0 calc(25% - 2%); /* 4 itens na frente com 2% de espaçamento entre eles */
+    text-align: left;
+    margin-right: 2%;
+    position: relative;
+}
+
+.novidades-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    filter: brightness(0.8); /* filtro de redução de brilho  */
+}
+
+.novidades-item:hover img {
+    transform: scale(1.05); /* Aumenta a imagem em hover */
+    filter: brightness(1);
+}
+
+.novidades-item h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left; /* Alinha o título para a esquerda */
+}
+
+
+.quadradinho {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-right: 5px;
+   
+}
+
+
+.novidades-item h3 {
+    text-align: left; /* Alinha o preço para a esquerda */
+    margin-top: 5px;
+    font-family: 'Anybody', cursivo;
+}
+
+
+/* interação com as redes sociais */
+
+
+section.interacao{
+    background-color: #E7e7e7;
+    padding-left: 10%;
+}
+section.interacaocomamidia{
+    padding-top: 10%;
+}
+.interacaoecomamidia {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 70%; /* Altura padrão de 70% para ambos */
+    margin: 5%;
+}
+
+.videointeracao {
+    width: 30%; /* Largura de 30% para o vídeo */
+    height: 100%;
+    margin-right: 5%; /* Margem à direita para separar o vídeo do carrossel */
+}
+
+
+.carousel-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0.5%;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1.looks{
+ width:100%;
+ margin-top: 4px;
+ padding: 0;
+ line-height: 80%;
+    font-size: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+} 
+
+
+/* galeria de produtos */
+
+.galeriadeprodutos-container {
+    margin-top: 3%;
+    max-width: 1800px; /* Largura máxima do container */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Anybody', cursivo;
+
+}
+
+
+/* filtro de galeria */
+.filter {
+   
+    width: 10%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Anybody', cursivo;
+}
+.galeriadeprodutos-itens {
+    width: 90%;
+    display: grid;
+    margin-top: 2%;
+    grid-template-columns: repeat(4, 1fr); /* Alterado para 4 colunas */
+    grid-auto-rows: 200px;
+    align-items: center;
+    gap:130px;
+    
+}
+
+.price-range {
+    margin-top: 20px;
+}
+
+#price-slider {
+    margin-top: 10px;
+}
+/* Estilo para cada item da galeria */
+.galeriadeprodutos-item {
+    position: relative;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Estilo para a imagem do produto */
+.galeriadeprodutos-item img {
+    max-width: 100%;
+    width:250px;
+    height: auto;
+
+    max-width: 100%;
+    height: auto;
+}
+.galeriadeprodutos-item:hover {
+    transform: scale(1.1); /* Reduzido o valor para não aumentar demais o tamanho */ 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Estilo para o título do produto */
+.galeriadeprodutos-item h2 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo para o preço do produto */
+.galeriadeprodutos-item .preco {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Estilo para o parcelamento do produto */
+.galeriadeprodutos-item .parcelamento {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Efeito de ampliação e sombra quando o mouse passar por cima */
+.galeriadeprodutos-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+    h1.PRODUTOSGERAIS {
+        padding-top: 2%;
+        font-family: 'Bebas Neue';
+        font-size: 80px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    
+}
+
+section.galeriadeprodutos-container.h2{
+    font-family: 'Anybody', cursivo;
+}
+
+galeriadeprodutos-item.h2{
+    font-family: 'Anybody', cursivo; 
+}
+
+.mapa{
+    margin-top: 2%;
+}
