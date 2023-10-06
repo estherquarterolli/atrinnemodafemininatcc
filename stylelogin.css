@@ -24,13 +24,27 @@ body{
    width: 85%;
   }
 
-   .login{
-    width: 259px;
-    height: 69px;
-    margin-top: -38%;
-    margin-left: 23.5%;
-    display: flex;
-   }
+  .login{
+   width: 259px;
+   height: 69px;
+   margin-top: -38%;
+   margin-left: 23.5%;
+   display: flex;
+   background-color: #5D7849;
+
+  }
+.login:hover{
+   width: 259px;
+   height: 69px;
+   margin-top: -38%;
+   margin-left: 23.5%;
+   display: flex;
+   background-color: #314024;
+
+  a .login{
+     text-decoration:none;
+     color:white;
+  }
 
    .cadastro{
     width: 262px;
@@ -56,11 +70,6 @@ body{
     margin-left: 4.5%;
     width: 500px;
    }
-
-/* ADICIONAR FONTE AQUI  */
-   /* .texto{ */
-
-   /* } */
 
    .email{
     margin-top:  -4%;
@@ -88,5 +97,3 @@ body{
     height: 50px;
     display: flex;
    }
-   
-   
