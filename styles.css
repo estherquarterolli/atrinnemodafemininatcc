@@ -23,6 +23,80 @@ body{
     margin: 0;
     padding: 0;   
 }
+.footer {
+    width: 100%;
+    padding:0;
+    height:225px;
+    background: #000000;
+    position: absolute;
+    bottom:0;
+ 
+}
+
+
+    #instagram{
+	position: absolute;
+	right:200px;
+	top:70px;
+    color:white;
+	}
+
+    #whats{
+	position: absolute;
+	right:290px;
+	top:70px;
+	}
+
+    #Logo{
+	position: absolute;
+    right:1100px;
+	top:0px;
+    font-size:30px;
+    color:white;
+	}
+
+    #Home1{
+	position: absolute;
+    right:700px;
+	top:25px;
+    font-size:25px;
+    color:white;
+	}
+
+    #Blog1{
+	position: absolute;
+    right:713px;
+	top:64px;
+    font-size:25px;
+    color:white;
+	}
+    
+
+    #Sobre1{
+	position: absolute;
+    right:665px;
+	top:104px;
+    font-size:25px;
+    color:white;
+	}
+
+    #Duvidas1{
+	position: absolute;
+    right:574px;
+	top:150px;
+    font-size:25px;
+    color:white;
+
+	}
+
+    #Contato1{
+	position: absolute;
+    right:50px;
+	top:25px;
+    font-size:25px;
+    color:white;
+
+	}
 
 .container{
     max-width: 1800px;
@@ -505,3 +579,87 @@ galeriadeprodutos-item.h2{
 .mapa{
     margin-top: 2%;
 }
+
+.footer {
+    width: 100%;
+    padding:0;
+    height:225px;
+    background: #000000;
+    position: absolute;
+    bottom:0;
+ 
+}
+
+
+    #instagram{
+	position: absolute;
+	right:200px;
+	top:72px;
+    color:white;
+	}
+
+    #whats{
+	position: absolute;
+	right:280px;
+	top:68px;
+	}
+
+    #Logo{
+	position: absolute;
+    right:1100px;
+	top:0px;
+    font-size:30px;
+    color:white;
+	}
+
+    #Home1{
+	position: absolute;
+    right:700px;
+	top:25px;
+    font-size:25px;
+    color:white;
+	}
+
+    #Blog1{
+	position: absolute;
+    right:713px;
+	top:64px;
+    font-size:25px;
+    color:white;
+	}
+    
+
+    #Sobre1{
+	position: absolute;
+    right:665px;
+	top:104px;
+    font-size:25px;
+    color:white;
+	}
+
+    #Duvidas1{
+	position: absolute;
+    right:574px;
+	top:150px;
+    font-size:25px;
+    color:white;
+
+	}
+
+    #Contato1{
+	position: absolute;
+    right:50px;
+	top:25px;
+    font-size:25px;
+    color:white;
+
+	}
+    
+    #Fonte1{
+	position: absolute;
+    right:877px;
+	top:73px;
+    font-size:34px;
+    color:white;
+
+	}
